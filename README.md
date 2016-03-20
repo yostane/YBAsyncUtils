@@ -21,6 +21,8 @@ You can verify the header name in you project **Build Settings** by looking at t
 ## Examples
 ### YBDispatchUtils
 
+- Objective-C
+
 ```objective-c
 [YBDispatchUtils runAsync:^{
 	NSLog(@"start 1");
@@ -35,7 +37,6 @@ You can verify the header name in you project **Build Settings** by looking at t
 } uiCompletionBlock:^{
 	NSLog(@"i am on ui thread 2");
 }];
-
     
 [YBDispatchUtils runAsync:^{
 	NSLog(@"start 3");
@@ -46,11 +47,10 @@ You can verify the header name in you project **Build Settings** by looking at t
 	}];
 	NSLog(@"Done 3");
 }];
-
 ```
+- Swift
 
 ```swift
-
 YBDispatchUtils.runAsync(asyncBlock: {
 	print("start 1")
 	sleep(1)
@@ -66,6 +66,4 @@ YBDispatchUtils.runAsync({ () -> Void in
 		self.loadingIndocator.stopAnimating()
 		print("done 2")
  })
-
 ```
-
