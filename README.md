@@ -3,7 +3,7 @@ YBAsyncUtils
 
 **YBAsyncUtils** is swift / Objective-C library that simplifies threading in iOS apps. It containes the follwing classes:
 
--**YBDispatchUtils**: contains static functions for using CGD (Grand Central Dispatch). GCD is very verbose and confusing. This class aims to reduce code and makes using GCD more clear.
+- **YBDispatchUtils**: contains static functions for using CGD (Grand Central Dispatch). GCD is very verbose and confusing. This class aims to reduce code and makes using GCD more clear.
 
 ## How To Get Started
 ###Swift
