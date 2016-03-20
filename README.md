@@ -14,7 +14,7 @@ Just copy the folder YBAsyncUtils to your source folder.
 -Do not accept the swift briging header if prompted
 -Add the swift import in .m files that use this library 
 ```objective-c
-\#import "Product Module Name-Swift.h"
+#import "Product Module Name-Swift.h"
 ```
 You can verify the header name in you project **Build Settings** by looking at the values of the entries   *Product Module Name* and *Objective-C Generated Interface Header Name*
 
