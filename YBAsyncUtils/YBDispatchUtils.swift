@@ -5,6 +5,7 @@
 //  Created by yassine benabbas on 20/03/2016.
 //  Copyright © 2016 yostane. All rights reserved.
 //
+//  MIT License
 
 import Foundation
 
